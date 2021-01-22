@@ -1,0 +1,85 @@
+body{
+margin: 0;
+background: #ffffff;
+font-weight: 400;
+}
+.container {
+width: 80%;
+height: auto;
+}
+header{
+background: #ffffff;
+}
+header::after{
+content: '';
+display: table;
+clear: both;
+}
+.logo{
+float: left;
+padding: 5px 10px;
+}
+nav{
+float: right;
+}
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 40px;
+position: relative;
+}
+nav a {
+color: #42A5FF;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+nav a:hover{
+color: black;
+}
+nav a::before{
+content: '';
+display: block;
+height: 4px;
+width: 100%;
+background-color: #42A5FF;
+position: absolute;
+top: 0;
+width: 0%;
+transition: all ease-in-out 300ms;
+}
+nav a:hover::before{
+width: 100%;
+}
+
+
+
+
+.artikelplaatje{
+  width: 40%;
+  background-color: #D3DEE7;
+  padding: 20px;
+  float: left;
+}
+
+.tekst{
+  float: left;
+  width: 30%;
+  background-color: #D3DEE7;
+  padding: 40px;
+  height: 695px;
+  font-family: arial;
+}
+.besteltekst{
+  width: 13%;
+  height: 695px;
+  float: right;
+  background-color:#D3DEE7;
+  padding: 40px;
+  font-family: arial;
+}

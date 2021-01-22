@@ -1,0 +1,85 @@
+body{
+margin: 0;
+background: #ffffff;
+font-weight: 400;
+}
+.container {
+width: 80%;
+height: auto;
+}
+header{
+background: #ffffff;
+}
+header::after{
+content: '';
+display: table;
+clear: both;
+}
+.logo{
+float: left;
+padding: 5px 10px;
+}
+nav{
+float: right;
+}
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 40px;
+position: relative;
+}
+nav a {
+color: #42A5FF;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+nav a:hover{
+color: black;
+}
+nav a::before{
+content: '';
+display: block;
+height: 4px;
+width: 100%;
+background-color: #42A5FF;
+position: absolute;
+top: 0;
+width: 0%;
+transition: all ease-in-out 300ms;
+}
+nav a:hover::before{
+width: 100%;
+}
+
+
+.homeafbeelding{
+background-color: #D3DEE7;
+float:left;
+padding: 20px;
+padding-bottom: 0px;
+}
+.plaatje2home{
+background-color: #D3DEE7;
+float:left;
+padding: 20px;
+padding-bottom: 0px;
+}
+
+.ons{
+  color:black;
+  background-color: #D3DEE7;
+  width:100%;
+  height:540px;
+  padding-top: 20px;
+  font-family: arial;
+}
+
+h2{
+  text-align:center;
+}
